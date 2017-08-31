@@ -1,4 +1,48 @@
-body { padding: 50px;  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image: url("/images/background.png");}
+/*body {padding: 50px; font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;background-image: url("/images/1.png");}*/
+
+body {
+  margin:0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /*background: url("/images/3.jpg") no-repeat center;*/
+  background-size:cover; /*表示背景的大小*/
+  width: 100vw; /* 设置浏览器宽度*/
+  height: 100vh; /* 设置为浏览器高度*/
+  /*opacity: 0;*/
+  /*filter: alpha(opacity=0);*/
+  /*transition: opacity 4s linear;*/
+  /*-webkit-transition: opacity 4s linear;*/
+  /*-moz-transition: opacity 4s linear;*/
+  /*-ms-transition: opacity 4s linear;*/
+  /*animation-delay: 0s;*/
+  /*animation-duration: 1s;*/
+  /*animation-fill-mode: forwards;*/
+  /*animation-timing-function: ease;*/
+  /*-webkit-animation-name: fadein;*/
+  /*-moz-animation-name: fadein;*/
+  /*-o-animation-name: fadein;*/
+  /*animation-name : fadein;*/
+  /*transition:transform .3s ease-out;*/
+}
 
 a { color: #00B7FF; }
+#wrapper{
+  /*background: url("/images/3.jpg") no-repeat center;*/
+  background-size:cover; /*表示背景的大小*/
+  width: 100vw; /* 设置浏览器宽度*/
+  height: 100vh; /* 设置为浏览器高度*/
+  -webkit-animation-name: fadein;
+  -moz-animation-name: fadein;
+  -o-animation-name: fadein;
+  animation-name : fadein;
+  animation: fadein 1s;
+}
+
+/* 背景图片加载的 */
+@keyframes fadein {
+  0% { opacity: 0; }
+  50% { opacity:0.5;}
+  100% { opacity: 1;}
+}
+
+
+
